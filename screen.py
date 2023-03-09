@@ -25,17 +25,6 @@ bytesArr()
 
 
 
-# while True:
-# 	time_elapsed = time.time() - prev
-# 	img = pyautogui.screenshot("B.png")
-	
-# 	if time_elapsed> 1.0/fps:
-# 		prev = time.time()
-# 		frame = np.array(img)
-# 		frame =cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
-# 		out.write(frame)
-# 	cv2.waitKey(100)
-
 cv2.destroyAllWindows()
 out.release()
 
