@@ -22,8 +22,6 @@ def bytesArr():
 
 bytesArr()
 
-
-
 cv2.destroyAllWindows()
 out.release()
 
