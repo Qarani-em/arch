@@ -4,7 +4,6 @@ import time
 import pyautogui
 import base64
 
-
 screen_size = (1920,1080)
 forcc = cv2.VideoWriter_fourcc(*"XVID")
 out = cv2.VideoWriter("output.avi",forcc,20.0,(screen_size))
