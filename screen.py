@@ -11,7 +11,6 @@ out = cv2.VideoWriter("output.avi",forcc,20.0,(screen_size))
 fps = 60
 prev = 0
 
-
 def bytesArr():
 	with open("B.png","rb") as img:
 		str_= base64.b64encode(img.read())
